@@ -1,4 +1,4 @@
-=== WooCommerce INR for Paypal===
+=== Woo Paypal With INR===
 Contributors: 005vinay
 Donate link: 
 Tags: woocommerce, paypal, inr, inr to usd convert
@@ -24,7 +24,7 @@ Conversion rate of INR to USD it will select from yahoo api automatically, so ne
 3. Enjoy INR for you woocommerce store
 
 
-after activating this plugin you need to do anything. and you should install woocommerce plugin before installing this plugin.
+after activating this plugin you do not need to do anything. and you should already installed woocommerce plugin before installing this plugin.
 
 == Frequently asked questions ==
 
@@ -51,5 +51,5 @@ Please backup your database.
 
 == Arbitrary section 1 ==
 
-you should be installed woocommerce plugin.
-its work with INR no other currency.
+you should already installed woocommerce plugin before installing this plugin.
+its work with INR not other currency.
