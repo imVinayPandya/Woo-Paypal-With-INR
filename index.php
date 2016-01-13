@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Woocommerce inr for paypal
+Plugin Name: Woo Paypal With INR
 Plugin URI: https://www.panduboys.com
 Description: This plugin enable inr for paypal gateway. its automatically convert inr to usd when customer try to check out with paypal.
 Author: Vinay Pandya
@@ -34,7 +34,7 @@ function inr_currency_symbol( $currency_symbol, $currency ) {
 add_filter( 'woocommerce_paypal_supported_currencies', 'add_paypal_valid_currency' ); 
  
 function add_paypal_valid_currency( $currencies ) { 
-     array_push ( $currencies , 'INR' ); /* YOUR CURRENCY */
+     array_push ( $currencies , 'INR' );
      return $currencies; 
 }
 
